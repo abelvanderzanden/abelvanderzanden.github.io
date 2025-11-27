@@ -1,0 +1,158 @@
+/* Globale Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling (Achtergrond, Font) */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #1a1a2e, #16213e);
+    color: #e0e0e0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+/* Container (Het middenblok) */
+.container {
+    max-width: 800px;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding: 50px 40px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    text-align: center;
+}
+
+/* Hoofdtitel (H1) */
+h1 {
+    font-size: 3.5rem; /* Dit is de stijl van de originele 'Coming Soon' / 'De Perfecte Eerste Keer' */
+    margin-bottom: 30px;
+    color: #00ff9d;
+    text-shadow: 0 0 15px rgba(0, 255, 157, 0.5);
+}
+
+/* Subtitel / Titel op detailpagina's (H2) */
+h2 {
+    font-size: 1.8rem;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    color: #00d4ff;
+    text-align: center; /* Zorgt dat de H2 centrisch is, net als de H1 */
+}
+
+/* Paragraaftekst en intro-tekst */
+p, .intro-text {
+    font-size: 1.25rem;
+    line-height: 1.8;
+    margin-bottom: 30px;
+    color: #cccccc;
+    /* Alleen de intro-text op de main page is gecentreerd, andere p tags zijn links uitgelijnd */
+}
+
+/* Detail Pagina Tekst (P, UL) */
+.container_detail p, .containe_detail ul {
+    font-size: 1.15rem;
+    line-height: 1.8;
+    margin-bottom: 25px;
+    color: #cccccc;
+    text-align: left;
+    padding: 0 20px;
+}
+
+/* Highlighting van belangrijke tekst */
+.highlight {
+    color: #00d4ff;
+    font-weight: 600;
+}
+
+/* Lijst (Section-list op main page) */
+.section-list {
+    list-style: none;
+    padding: 0;
+    margin: 40px 0;
+}
+
+.section-list li {
+    margin-bottom: 20px;
+}
+
+/* Links in de Section-list */
+.section-list a {
+    display: block;
+    background: rgba(0, 212, 255, 0.1);
+    color: #00d4ff;
+    text-decoration: none;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    border-left: 5px solid #00d4ff;
+}
+
+.section-list a:hover {
+    background: rgba(0, 212, 255, 0.2);
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0, 212, 255, 0.2);
+}
+
+/* WhatsApp Knop */
+.phone {
+    display: inline-block;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #00ff9d;
+    text-decoration: none;
+    margin: 40px 0;
+    padding: 15px 40px;
+    background: rgba(0, 255, 157, 0.15);
+    border: 2px solid #00ff9d;
+    border-radius: 50px;
+    transition: all 0.3s ease;
+}
+
+.phone:hover {
+    background: rgba(0, 255, 157, 0.3);
+    transform: scale(1.05);
+    box-shadow: 0 0 25px rgba(0, 255, 157, 0.5);
+}
+
+.phone i {
+    margin-right: 12px;
+}
+
+/* Terug-link op detailpagina's */
+.back-link {
+    display: inline-block;
+    margin-top: 30px;
+    color: #00ff9d;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+.back-link:hover {
+    text-decoration: underline;
+}
+
+
+/* Footer */
+.footer {
+    margin-top: 60px;
+    font-size: 0.9rem;
+    color: #777;
+}
+
+/* Media Queries (Responsive Design) */
+@media (max-width: 600px) {
+    h1 { font-size: 2.8rem; }
+    h2 { font-size: 1.5rem; }
+    .intro-text, .container p, .container ul { font-size: 1.1rem; }
+    .section-list a { font-size: 1.3rem; padding: 15px; }
+    .phone { font-size: 1.6rem; padding: 12px 30px; }
+}
