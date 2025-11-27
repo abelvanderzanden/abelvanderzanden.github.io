@@ -1,0 +1,27 @@
+# Algemene Site-instellingen
+title: Ik wil ontmaagd worden
+description: > 
+  Een respectvolle, ontspannen en geduldige manier om ontmaagd te worden in het midden van Nederland.
+baseurl: "" # De submap waar je site zal staan (Laat dit leeg als je op het root-domein host)
+url: "https://www.ikwilontmaagdworden.nl"
+
+# Build-instellingen (Jekyll)
+markdown: kramdown
+theme: minima # Je kunt hier elke Jekyll-thema specificeren, of minima gebruiken als startpunt
+
+# Pagina's en permalinks (Hoe de URL's eruit zien)
+permalink: pretty # Gebruikt schone URL's (bijv. /wiebenik/ in plaats van /wiebenik.html)
+
+# Uitsluitingen (Bestanden die Jekyll moet negeren)
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/
+
+# Standaarden (Belangrijk: past de layout toe op alle Markdown-bestanden)
+defaults:
+  - scope:
+      path: "" # Alle bestanden en mappen
+    values:
+      layout: "default" # Pas de 'default.html' layout toe
