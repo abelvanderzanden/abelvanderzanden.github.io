@@ -29,7 +29,6 @@ Ik doe dit **puur als hobby en uit plezier**. Het is absoluut geen commerciële 
 ## Waar we wel de kosten van delen:
 
 * <i class="fas fa-hotel"></i> **Hotel/Locatie:** We delen de kosten van een goed en discreet hotel. Dit zorgt voor een comfortabele en ongestoorde omgeving.
-* <i class="fas fa-car"></i> **Reiskosten:** Afhankelijk van de afstand kunnen we eventuele reiskosten in overleg delen, maar dit is minimaal.
 
 Het doel is om alles zo eenvoudig en transparant mogelijk te houden, zodat we ons kunnen concentreren op de ervaring.
 
