@@ -26,10 +26,4 @@ permalink: /kosten/
 
 Ik doe dit **puur als hobby en uit plezier**. Het is absoluut geen commerciële activiteit. Er zijn dan ook geen kosten voor mijn tijd of de ervaring zelf.
 
-## Waar we wel de kosten van delen:
-
-* <i class="fas fa-hotel"></i> **Hotel/Locatie:** We delen de kosten van een goed en discreet hotel. Dit zorgt voor een comfortabele en ongestoorde omgeving.
-
-Het doel is om alles zo eenvoudig en transparant mogelijk te houden, zodat we ons kunnen concentreren op de ervaring.
-
 <a href="{{ site.baseurl }}/" class="back-link"><i class="fas fa-arrow-left"></i> Terug naar de hoofdpagina</a>
