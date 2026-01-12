@@ -2,7 +2,6 @@
 layout: default
 title: Kosten? - Transparantie
 permalink: /kosten/
-extra_meta: '<meta name="description" content="Leuke man voor leuke eerste keer sex. Ontmaagd worden met respect, geduld en discretie.">'
 ---
 
 <style>
