@@ -2,6 +2,7 @@
 layout: default
 title: Wie ben jij? - Jouw Wensen
 permalink: /wie-ben-jij/
+extra_meta: '<meta name="description" content="Nog maagd en zin in een fijne, rustige eerste keer? Abel biedt geduld, respect en alle tijd die jij nodig hebt. Discreet, comfort eerst, midden Nederland.">'
 ---
 
 <style>

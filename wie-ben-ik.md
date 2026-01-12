@@ -2,6 +2,7 @@
 layout: default
 title: Wie ben ik? - Abel
 permalink: /wie-ben-ik/
+extra_meta: '<meta name="description" content="Leuke man voor leuke eerste keer sex. Ontmaagd worden met respect, geduld en discretie.">'
 ---
 
 <style>
