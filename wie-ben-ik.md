@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Wie ben ik? - Abel
+title: Wie ben ik? - Ab
 permalink: /wie-ben-ik/
 extra_meta: '<meta name="description" content="Leuke man voor leuke eerste keer sex. Ontmaagd worden met respect, geduld en discretie.">'
 ---
@@ -23,9 +23,9 @@ extra_meta: '<meta name="description" content="Leuke man voor leuke eerste keer 
 }
 </style>
 
-# <i class="fas fa-user-circle"></i> Wie ben ik? - Abel
+# <i class="fas fa-user-circle"></i> Wie ben ik? - Ab
 
-Mijn naam is **Abel**, en ik ben een single, slanke en sportieve man uit het midden van Nederland. Ik geloof dat de eerste seksuele ervaring van een vrouw een positieve, onvergetelijke gebeurtenis moet zijn. Daarom bied ik mijn tijd, geduld en expertise aan.
+Mijn naam is **Ab**, en ik ben een single, slanke en sportieve man uit het midden van Nederland. Ik geloof dat de eerste seksuele ervaring van een vrouw een positieve, onvergetelijke gebeurtenis moet zijn. Daarom bied ik mijn tijd, geduld en expertise aan.
 
 ## Wat kun je van mij verwachten?
 
