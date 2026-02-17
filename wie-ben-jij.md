@@ -2,7 +2,7 @@
 layout: default
 title: Wie ben jij? - Jouw Wensen
 permalink: /wie-ben-jij/
-extra_meta: '<meta name="description" content="Nog maagd en zin in een fijne, rustige eerste keer? Ab biedt geduld, respect en alle tijd die jij nodig hebt. Discreet, comfort eerst, midden Nederland.">'
+extra_meta: '<meta name="description" content="Jij bent een vrouw van 18 jaar of ouder die nog maagd is en op zoek is naar een leuke eerste keer.">'
 ---
 
 <style>
