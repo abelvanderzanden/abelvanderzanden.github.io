@@ -5,24 +5,6 @@ permalink: /wie-ben-ik/
 extra_meta: '<meta name="description" content="Leuke man voor leuke eerste keer sex. Ontmaagd worden met respect, geduld en discretie.">'
 ---
 
-<style>
-.container ul {
-    list-style: none;
-    padding-left: 0;
-}
-.container ul li:before {
-    content: '•';
-    color: #00ff9d;
-    font-weight: bold;
-    display: inline-block;
-    width: 1em;
-    margin-left: -1em;
-}
-.container ul li {
-    margin-bottom: 10px;
-}
-</style>
-
 # <i class="fas fa-user-circle"></i> Wie ben ik? - Ab
 
 Mijn naam is **Ab**, en ik ben een single, slanke en sportieve man uit het midden van Nederland. Ik geloof dat de eerste seksuele ervaring van een vrouw een positieve, onvergetelijke gebeurtenis moet zijn. Daarom bied ik mijn tijd, geduld en expertise aan.

@@ -7,6 +7,39 @@
     {{ page.extra_meta }}
     {% endif %}
     <title>{{ page.title }} | Ik wil ontmaagd worden</title>
+    
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>❤️</text></svg>">
+    
+    <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html','' }}">
+    
+    <!-- Open Graph (WhatsApp, Social Media) -->
+    <meta property="og:title" content="{{ page.title }} | De Perfecte Eerste Keer">
+    <meta property="og:description" content="Eerste keer seks op een respectvolle, geduldige en veilige manier. Ontmaagd worden op jouw tempo.">
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+    <meta property="og:type" content="website">
+    
+    <!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="{{ page.title }}">
+    <meta name="twitter:description" content="Eerste keer seks op een respectvolle en veilige manier.">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "name": "De Perfecte Eerste Keer",
+      "description": "Begeleiding bij een eerste seksuele ervaring op een respectvolle en geduldige manier.",
+      "provider": {
+        "@type": "Person",
+        "name": "Ab"
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "Netherlands"
+      }
+    }
+    </script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css">
     <!-- Google tag (gtag.js) -->
@@ -22,9 +55,25 @@
 <body>
 
 <div class="container">
-    {{ content }}
+    <nav class="main-nav">
+        <a href="{{ site.baseurl }}/" title="Home"><i class="fas fa-home"></i></a>
+        <a href="{{ site.baseurl }}/wie-ben-ik/">Wie ben ik?</a>
+        <a href="{{ site.baseurl }}/wie-ben-jij/">Wie ben jij?</a>
+        <a href="{{ site.baseurl }}/kosten/">Kosten?</a>
+        <a href="{{ site.baseurl }}/faq/">FAQ</a>
+    </nav>
 
-    <div class="footer">Discretie en respect staan bij mij altijd voorop.</div>
+    <div class="content {% if page.url == '/' %}is-home{% endif %}">
+        {{ content }}
+    </div>
+
+    <div class="footer">
+        <p>Vragen of interesse? Stuur me gerust een berichtje.</p>
+        <a href="https://wa.me/31683784669" class="footer-cta" target="_blank">
+            <i class="fab fa-whatsapp"></i> WhatsApp: 06 - 83784669
+        </a>
+        <div class="footer-note">Discretie en respect staan bij mij altijd voorop.</div>
+    </div>
 </div>
 
 </body>

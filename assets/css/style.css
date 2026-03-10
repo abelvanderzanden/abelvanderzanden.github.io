@@ -8,8 +8,8 @@
 /* Body Styling (Achtergrond, Font) */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: linear-gradient(135deg, #1a1a2e, #16213e);
-    color: #e0e0e0;
+    background: linear-gradient(135deg, #1a0505, #3d0c0c);
+    color: #f8f1f1;
     min-height: 100vh;
     display: flex;
     align-items: center;
@@ -21,21 +21,82 @@ body {
 .container {
     max-width: 800px;
     width: 100%;
-    background: rgba(255, 255, 255, 0.05);
-    backdrop-filter: blur(10px);
-    border-radius: 20px;
-    padding: 50px 40px;
-    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
-    border: 1px solid rgba(255, 255, 255, 0.1);
+    background: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(15px);
+    border-radius: 30px;
+    padding: 30px 40px 50px;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.6);
+    border: 1px solid rgba(255, 77, 109, 0.2);
     text-align: center;
+}
+
+/* Navigatie bovenaan */
+.main-nav {
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding-bottom: 20px;
+}
+
+.main-nav a {
+    color: #ffccd5;
+    text-decoration: none;
+    font-size: 0.95rem;
+    padding: 8px 15px;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+
+.main-nav a:hover {
+    color: #ffffff;
+    background: rgba(255, 77, 109, 0.2);
 }
 
 /* Hoofdtitel (H1) */
 h1 {
-    font-size: 3.5rem; /* Dit is de stijl van de originele 'Coming Soon' / 'De Perfecte Eerste Keer' */
+    font-size: 3.5rem;
     margin-bottom: 30px;
-    color: #00ff9d;
-    text-shadow: 0 0 15px rgba(0, 255, 157, 0.5);
+    color: #ff4d6d;
+    text-shadow: 0 0 20px rgba(255, 77, 109, 0.4);
+}
+
+/* Hoe werkt het? Sectie */
+.how-it-works {
+    margin: 60px 0;
+    padding: 40px 20px;
+    background: rgba(255, 77, 109, 0.05);
+    border-radius: 20px;
+}
+
+.steps {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.step {
+    flex: 1;
+    padding: 10px;
+}
+
+.step i {
+    font-size: 2rem;
+    color: #ff4d6d;
+    margin-bottom: 15px;
+}
+
+.step h3 {
+    color: #ff85a1;
+    margin-bottom: 10px;
+}
+
+.step p {
+    font-size: 1rem;
+    line-height: 1.5;
 }
 
 /* Subtitel / Titel op detailpagina's (H2) */
@@ -43,8 +104,8 @@ h2 {
     font-size: 1.8rem;
     margin-top: 30px;
     margin-bottom: 15px;
-    color: #00d4ff;
-    text-align: center; /* Zorgt dat de H2 centrisch is, net als de H1 */
+    color: #ff85a1;
+    text-align: center;
 }
 
 /* Paragraaftekst en intro-tekst */
@@ -52,23 +113,41 @@ p, .intro-text {
     font-size: 1.25rem;
     line-height: 1.8;
     margin-bottom: 30px;
-    color: #cccccc;
-    /* Alleen de intro-text op de main page is gecentreerd, andere p tags zijn links uitgelijnd */
+    color: #ffccd5;
 }
 
 /* Detail Pagina Tekst (P, UL) */
-.container_detail p, .containe_detail ul {
+.content:not(.is-home) p, 
+.content:not(.is-home) ul {
     font-size: 1.15rem;
     line-height: 1.8;
     margin-bottom: 25px;
-    color: #cccccc;
+    color: #ffccd5;
     text-align: left;
     padding: 0 20px;
 }
 
+.content:not(.is-home) ul {
+    list-style: none;
+    padding-left: 20px;
+}
+
+.content:not(.is-home) ul li:before {
+    content: '❤';
+    color: #ff4d6d;
+    font-weight: bold;
+    display: inline-block;
+    width: 1.2em;
+    margin-left: -1.2em;
+}
+
+.content:not(.is-home) ul li {
+    margin-bottom: 12px;
+}
+
 /* Highlighting van belangrijke tekst */
 .highlight {
-    color: #00d4ff;
+    color: #ff4d6d;
     font-weight: 600;
 }
 
@@ -86,73 +165,81 @@ p, .intro-text {
 /* Links in de Section-list */
 .section-list a {
     display: block;
-    background: rgba(0, 212, 255, 0.1);
-    color: #00d4ff;
+    background: rgba(255, 77, 109, 0.1);
+    color: #ffccd5;
     text-decoration: none;
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 15px;
     font-size: 1.5rem;
     font-weight: 600;
     transition: all 0.3s ease;
-    border-left: 5px solid #00d4ff;
+    border-left: 5px solid #ff4d6d;
 }
 
 .section-list a:hover {
-    background: rgba(0, 212, 255, 0.2);
+    background: rgba(255, 77, 109, 0.2);
+    color: #ffffff;
     transform: translateY(-3px);
-    box-shadow: 0 5px 15px rgba(0, 212, 255, 0.2);
-}
-
-/* WhatsApp Knop */
-.phone {
-    display: inline-block;
-    font-size: 2rem;
-    font-weight: bold;
-    color: #00ff9d;
-    text-decoration: none;
-    margin: 40px 0;
-    padding: 15px 40px;
-    background: rgba(0, 255, 157, 0.15);
-    border: 2px solid #00ff9d;
-    border-radius: 50px;
-    transition: all 0.3s ease;
-}
-
-.phone:hover {
-    background: rgba(0, 255, 157, 0.3);
-    transform: scale(1.05);
-    box-shadow: 0 0 25px rgba(0, 255, 157, 0.5);
-}
-
-.phone i {
-    margin-right: 12px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
 }
 
 /* Terug-link op detailpagina's */
 .back-link {
     display: inline-block;
     margin-top: 30px;
-    color: #00ff9d;
+    color: #ff85a1;
     text-decoration: none;
     font-size: 1.1rem;
+    transition: color 0.3s;
 }
 .back-link:hover {
+    color: #ff4d6d;
     text-decoration: underline;
 }
-
 
 /* Footer */
 .footer {
     margin-top: 60px;
+    padding-top: 40px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+
+.footer-cta {
+    display: inline-block;
+    color: #ff4d6d;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 12px 25px;
+    background: rgba(255, 77, 109, 0.1);
+    border: 1px solid #ff4d6d;
+    border-radius: 30px;
+    margin-bottom: 30px;
+    transition: all 0.3s ease;
+}
+
+.footer-cta:hover {
+    background: rgba(255, 77, 109, 0.2);
+    color: #ffffff;
+    transform: translateY(-2px);
+}
+
+.footer-note {
     font-size: 0.9rem;
-    color: #777;
+    color: #a38080;
 }
 
 /* Media Queries (Responsive Design) */
 @media (max-width: 600px) {
-    h1 { font-size: 2.8rem; }
+    h1 { font-size: 2.5rem; }
     h2 { font-size: 1.5rem; }
-    .intro-text, .container p, .container ul { font-size: 1.1rem; }
+    .steps { flex-direction: column; gap: 40px; }
+    .intro-text, .content:not(.is-home) p, .content:not(.is-home) ul { font-size: 1.1rem; }
     .section-list a { font-size: 1.3rem; padding: 15px; }
-    .phone { font-size: 1.6rem; padding: 12px 30px; }
+    .container { padding: 25px 20px 40px; }
 }
