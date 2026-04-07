@@ -3,7 +3,7 @@ title: Ik wil ontmaagd worden
 description: > 
   Een respectvolle, ontspannen en geduldige manier om ontmaagd te worden in het midden van Nederland.
 baseurl: "" # De submap waar je site zal staan (Laat dit leeg als je op het root-domein host)
-url: "https://www.ikwilontmaagdworden.nl"
+url: "https://ikwilontmaagdworden.nl"
 
 # Build-instellingen (Jekyll)
 markdown: kramdown
