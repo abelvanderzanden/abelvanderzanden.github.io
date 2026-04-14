@@ -183,6 +183,60 @@ p, .intro-text {
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
 }
 
+/* Service Area Sectie */
+.service-area {
+    margin: 40px 0;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.03);
+    border-radius: 20px;
+}
+
+.cities {
+    margin: 20px 0;
+    font-size: 1.1rem;
+    color: #ffccd5;
+    font-weight: 500;
+}
+
+.cities span {
+    color: #ff4d6d;
+    font-weight: bold;
+}
+
+.small-text {
+    font-size: 0.95rem;
+    color: #a38080;
+}
+
+/* Testimonials Sectie */
+.testimonials {
+    margin: 40px 0 60px;
+    padding: 30px;
+}
+
+.testimonial-item {
+    font-style: italic;
+    background: rgba(255, 255, 255, 0.05);
+    padding: 25px;
+    border-radius: 15px;
+    border-left: 3px solid #ff4d6d;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.testimonial-item p {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+.testimonial-author {
+    display: block;
+    color: #ff85a1;
+    font-size: 0.95rem;
+    font-weight: bold;
+}
+
 /* Terug-link op detailpagina's */
 .back-link {
     display: inline-block;

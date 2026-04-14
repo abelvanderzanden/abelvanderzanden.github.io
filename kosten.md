@@ -2,6 +2,7 @@
 layout: default
 title: Kosten? - Transparantie
 permalink: /kosten/
+extra_meta: '<meta name="description" content="Ik doe dit puur als hobby en uit plezier. Er zijn geen kosten voor mijn tijd of de ervaring zelf. Volledige transparantie over eventuele hotelkosten.">'
 ---
 
 # <i class="fas fa-hand-holding-usd"></i> Kosten? - Transparantie

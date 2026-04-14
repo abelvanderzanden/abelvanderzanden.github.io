@@ -9,6 +9,8 @@ extra_meta: '<meta name="description" content="Jij bent een vrouw van 18 jaar of
 
 Jij bent een vrouw van **18 jaar of ouder** die nog maagd is en op zoek is naar een leuke, geduldige partner om dit op een prettige en veilige manier te doen.
 
+English speaking women who are looking for a **safe way to get deflowered** or **lose their virginity** are also more than welcome. I speak fluent English.
+
 ## Wat ik belangrijk vind:
 
 * <i class="fas fa-check-circle"></i> Je bent volwassen en maakt een weloverwogen keuze.

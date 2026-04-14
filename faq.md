@@ -2,6 +2,7 @@
 layout: default
 title: Veelgestelde Vragen (FAQ)
 permalink: /faq/
+extra_meta: '<meta name="description" content="Veelgestelde vragen over ontmaagd worden, de eerste ontmoeting, kosten en discretie. Krijg antwoord op al je vragen over jouw eerste keer.">'
 ---
 
 # <i class="fas fa-question-circle"></i> Veelgestelde Vragen
